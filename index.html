@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruit Burst - Exotic tastes at your doorstep</title>
+    <link rel="icon" href="./images/logo.png">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/1c3afb1708.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+    <style>
+        * {
+            font-family: 'Lato', sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="mx-4 lg:mx-60">
+        <!-- navbar start -->
+        <div class="navbar flex lg:bg-[#F85559] lg:text-white rounded-full my-8">
+            <div class="navbar-start hidden lg:flex">
+                <ul class="menu menu-horizontal px-1">
+                    <li><a>Home</a></li>
+                    <li><a>About Us</a></li>
+                    <li><a>Shop</a></li>
+                    <li><a>All Fruits</a></li>
+                </ul>
+            </div>
+            <div class="navbar-start flex-1 lg:flex-auto lg:justify-center">
+
+                <a class="lg:bg-[#F85559] border-0 font-bold text-xl lg:text-white flex gap-1 items-center"><img src="./images/logo.png" class="w-7" alt="">Fruit Burst</a>
+            </div>
+            
+            <div class="navbar-end lg:flex mr-4 hidden">
+                <input type="text" placeholder="search here" class="w-48 h-8 rounded-s-full pl-4 font-light">
+                <i class="fa-solid fa-magnifying-glass flex justify-center items-center bg-white w-12 h-8 rounded-e-full text-black"></i>
+            </div>
+            <div class="dropdown navbar-end w-fit">
+                <label tabindex="0" class="btn btn-ghost lg:hidden">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h8m-8 6h16" />
+                    </svg>
+                </label>
+                <ul tabindex="0"
+                    class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-max">
+                    <li><a>Home</a></li>
+                    <li><a>About Us</a></li>
+                    <li><a>Shop</a></li>
+                    <li><a>All Fruits</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- navbar end -->
+        <!-- carousel start -->
+        <div class="carousel w-full">
+            <div id="slide1" class="carousel-item relative w-full">
+                <div class="hero min-h-[60vh]" style="background-image:linear-gradient(0deg,
+                rgba(128, 128, 128, 0.114),
+                rgba(0, 0, 0, 0.77)), url('./images/banner1.png');">
+                    <div class="hero-content text-center text-neutral-content">
+                      <div class="max-w-md">
+                        <h1 class="mb-5 text-5xl font-bold">Exotic tastes at your doorstep</h1>
+                        <p class="mb-5">We supply highly quality organic products</p>
+                        <button class="btn bg-[#F85559] border-0 text-white hover:text-black">Get Started</button>
+                      </div>
+                    </div>
+                  </div>
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide4" class="btn btn-circle  bg-black border-0 text-white bg-opacity-80">❮</a> 
+                <a href="#slide2" class="btn btn-circle  bg-black border-0 text-white bg-opacity-80">❯</a>
+              </div>
+            </div> 
+            <div id="slide2" class="carousel-item relative w-full">
+                <div class="hero min-h-[60vh]" style="background-image:linear-gradient(0deg,
+                rgba(128, 128, 128, 0.114),
+                rgba(0, 0, 0, 0.77)), url('./images/banner2.png');">
+                    <div class="hero-content text-center text-neutral-content">
+                      <div class="max-w-md">
+                        <h1 class="mb-5 text-5xl font-bold">Exotic tastes at your doorstep</h1>
+                        <p class="mb-5">We supply highly quality organic products</p>
+                        <button class="btn bg-[#F85559] border-0 text-white hover:text-black">Get Started</button>
+                      </div>
+                    </div>
+                  </div>
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide1" class="btn btn-circle  bg-black border-0 text-white bg-opacity-80">❮</a> 
+                <a href="#slide3" class="btn btn-circle  bg-black border-0 text-white bg-opacity-80">❯</a>
+              </div>
+            </div> 
+            <div id="slide3" class="carousel-item relative w-full">
+                <div class="hero min-h-[60vh]" style="background-image:linear-gradient(0deg,
+                rgba(128, 128, 128, 0.114),
+                rgba(0, 0, 0, 0.77)), url('./images/banner1.png');">
+                    <div class="hero-content text-center text-neutral-content">
+                      <div class="max-w-md">
+                        <h1 class="mb-5 text-5xl font-bold">Exotic tastes at your doorstep</h1>
+                        <p class="mb-5">We supply highly quality organic products</p>
+                        <button class="btn bg-[#F85559] border-0 text-white hover:text-black">Get Started</button>
+                      </div>
+                    </div>
+                  </div>
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide2" class="btn btn-circle  bg-black border-0 text-white bg-opacity-80">❮</a> 
+                <a href="#slide4" class="btn btn-circle  bg-black border-0 text-white bg-opacity-80">❯</a>
+              </div>
+            </div> 
+            <div id="slide4" class="carousel-item relative w-full">
+                <div class="hero min-h-[60vh]" style="background-image:linear-gradient(0deg,
+                rgba(128, 128, 128, 0.114),
+                rgba(0, 0, 0, 0.77)), url('./images/banner1.png');">
+                    <div class="hero-content text-center text-neutral-content">
+                      <div class="max-w-md">
+                        <h1 class="mb-5 text-5xl font-bold">Exotic tastes at your doorstep</h1>
+                        <p class="mb-5">We supply highly quality organic products</p>
+                        <button class="btn bg-[#F85559] border-0 text-white hover:text-black">Get Started</button>
+                      </div>
+                    </div>
+                  </div>
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide3" class="btn btn-circle  bg-black border-0 text-white bg-opacity-80">❮</a> 
+                <a href="#slide1" class="btn btn-circle  bg-black border-0 text-white bg-opacity-80">❯</a>
+              </div>
+            </div> 
+          </div>
+        <!-- carousel end -->
+    </header>
+    <main class="mx-4 lg:mx-60">
+        <!-- deal start -->
+        <section class="my-20">
+            <div class="lg:flex lg:justify-between">
+                <div class="w-fit text-center lg:text-start mb-7 lg:mb-0">
+                    <h3 class="font-extrabold text-2xl">Deal of the day</h3>
+                    <p class="text-sm font-light">Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
+                </div>
+                <div class="flex gap-5 justify-center text-center">
+                    <div class="flex flex-col">
+                      <span class="countdown font-mono text-5xl">
+                        <span style="--value:15;"></span>
+                      </span>
+                      days
+                    </div> 
+                    <div class="flex flex-col">
+                      <span class="countdown font-mono text-5xl">
+                        <span style="--value:10;"></span>
+                      </span>
+                      hours
+                    </div> 
+                    <div class="flex flex-col">
+                      <span class="countdown font-mono text-5xl">
+                        <span style="--value:24;"></span>
+                      </span>
+                      min
+                    </div> 
+                    <div class="flex flex-col">
+                      <span class="countdown font-mono text-5xl">
+                        <span style="--value:47;"></span>
+                      </span>
+                      sec
+                    </div>
+                  </div>
+            </div>
+        </section>
+        <!-- deal end -->
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
